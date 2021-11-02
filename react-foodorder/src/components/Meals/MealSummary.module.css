@@ -1,0 +1,11 @@
+.summary {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  background-color: #5e5b5b;
+  border-radius: 15px;
+  padding: 0.5rem;
+  color: white;
+  margin-top: -5rem;
+  position: relative;
+}
