@@ -8,6 +8,8 @@
   align-items: center;
   color: white;
   z-index: 3;
+  margin: auto;
+  overflow-y: scroll;
 }
 
 .image1 {
