@@ -23,3 +23,12 @@
   height: 115%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 96%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
