@@ -1,0 +1,58 @@
+.licontainer {
+  list-style-type: none;
+  border-bottom: 1px solid blueviolet;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mealimg {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.title {
+  width: 6rem;
+}
+
+.amountbutton {
+  font-size: 1.25rem;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  width: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.25rem;
+}
+
+.amountcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.amount {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  color: #363636;
+}
+
+.close {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .licontainer {
+    margin: 0.4rem;
+    padding: 0.4rem;
+  }
+  .amountcontainer {
+    display: none;
+  }
+}
