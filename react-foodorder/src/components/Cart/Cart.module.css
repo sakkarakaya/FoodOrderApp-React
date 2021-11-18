@@ -11,12 +11,36 @@
   text-align: right;
 }
 
-.actions button {
+.orderbutton {
   font: inherit;
   cursor: pointer;
-  background-color: transparent;
-  border: 1px solid #8a2b06;
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid blueviolet;
   padding: 0.5rem 2rem;
   border-radius: 25px;
   margin-left: 1rem;
+}
+
+.closebutton {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.closebutton:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.orderbutton:hover {
+  background-color: rgba(128, 0, 255, 0.995);
+}
+.modallist {
+  padding: 0;
 }
