@@ -13,6 +13,10 @@
   border-radius: 5px;
 }
 
+.left {
+  flex: 1;
+}
+
 @media screen and (max-width: 768px) {
   .itemdesc {
     display: none;
