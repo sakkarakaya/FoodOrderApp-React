@@ -17,9 +17,10 @@ const MealItem = ({ item }) => {
     }
     return (
         <li className={classes.container}>
+            <img className={classes.mealItemimg} src={item.img} alt="foto" />
             <div className={classes.left}>
                 <h2>{item.name}</h2>
-                <p>{item.description}</p>
+                <p className={classes.itemdesc}>{item.description}</p>
                 <h3>{item.price.toFixed(2)} €</h3>
             </div>
             <div className={classes.right}>
