@@ -1,0 +1,33 @@
+.form {
+  margin: 1rem 0;
+}
+
+.inputdiv {
+  margin-bottom: 0.5rem;
+}
+
+.inputdiv label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.inputdiv input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 20rem;
+  max-width: 100%;
+  font: inherit;
+}
+
+.inputdiv p {
+  margin: 0;
+}
+
+.invalid p {
+  color: red;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
